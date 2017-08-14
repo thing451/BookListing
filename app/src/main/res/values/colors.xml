@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e2723</color>
+    <color name="colorPrimaryDark">#1b0000</color>
+    <color name="colorPrimaryLight">#6a4f4b</color>
+    <color name="colorSecondary">#ffecb3</color>
+    <color name="colorSecondaryDark">#cbba83</color>
+    <color name="colorSecondaryLight">#ffffe5</color>
+
+    <color name="background">@color/colorSecondary</color>
+    <color name="main_text">@android:color/black</color>
+    <color name="author_text">#757575</color>
+</resources>

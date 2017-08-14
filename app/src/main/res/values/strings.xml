@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+
+    <string name="no_internet_connection">No internet Connection</string>
+    <string name="no_books">No books available based on search parameters</string>
+
+    <string name="starting_text">Please enter topic and click search</string>
+    <string name="search_error">No books found, please try again</string>
+
+    <string name="search">Search</string>
+    <string name="max_results">Max Results</string>
+
+    <string name="book_title">Book Title Keyword</string>
+
+</resources>

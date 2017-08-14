@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:minHeight="128dp"
+    android:padding="@dimen/double_padding">
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:id="@+id/main_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/standard_padding"
+        android:layout_marginStart="@dimen/standard_padding"
+        android:layout_toRightOf="@+id/book_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textColor="@color/main_text"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Book Title Goes Here" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\tby"
+            android:textColor="@color/main_text"
+            android:textSize="12sp"
+            tools:text="by" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:textColor="@color/author_text"
+            android:textSize="12sp"
+            tools:text="Author Name here" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/main_text"
+        tools:text="Description"
+        android:textSize="12sp"
+        android:paddingBottom="@dimen/standard_padding"
+        android:paddingTop="@dimen/standard_padding"
+        android:layout_below="@+id/main_info"/>
+
+    <View
+        android:id="@+id/line_bar"
+        style="@style/line_view"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
